@@ -19,16 +19,15 @@ import javafx.stage.Stage;
 import wallettemplate.controls.NotificationBarPane;
 import wallettemplate.utils.GuiUtils;
 import wallettemplate.utils.TextFieldValidator;
-
 import javax.annotation.Nullable;
 import java.io.File;
 import java.io.IOException;
 import java.net.URL;
-
 import static wallettemplate.utils.GuiUtils.*;
 
+
 public class Main extends Application {
-    public static String APP_NAME = "WalletNAuth";
+    public static String APP_NAME = "BWallet";
 
     public static NetworkParameters params = RegTestParams.get(); // MainNetParams.get();
     public static WalletAppKit bitcoin;

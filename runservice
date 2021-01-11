@@ -26,7 +26,7 @@ cd $PROJECT_HOME
 
 ################################################################################
 #setup Application environment
-APP_NAME=WalletNAuth
+APP_NAME=BWallet
 APP_VER=""
 #JAR_NAME= #define if JAR_NAME is a customized name which is not based on APP_NAME & APP_VER
 
